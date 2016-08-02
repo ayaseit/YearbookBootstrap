@@ -1,0 +1,26 @@
+body {
+  padding-top: 70px; 
+/*background-image: url("../images/jumboimage.jpg");
+background-repeat: no-repeat;*/
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+.front img {
+  width: 550px;
+}
+
+.features .glyphicon {
+  font-size: 32px;
+}
+
+.face img {
+  border-radius: 50%;
+  /*width: 200px;*/
+}
+
+.mid {
+
+}
