@@ -4,12 +4,44 @@ body {
 background-repeat: no-repeat;*/
 }
 
+a {
+  color: #313252;
+}
+/* Overwirting bootstrap  */
+.navbar-default {
+  background-color: #31305f;
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+    color: rgb(245, 245, 245);
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #e2dcdc;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: rgb(245, 245, 245);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #e2dcdc;
+  background-color: transparent;
+}
+
 .navbar {
   padding:0.8em;
 }
 .navbar-brand {
   font-size: 2em;
   font-weight: bold;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #313252;
+    border-color: #2e6da4;
 }
 
 .nv {
