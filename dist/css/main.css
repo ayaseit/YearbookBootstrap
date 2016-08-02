@@ -8,6 +8,10 @@ background-repeat: no-repeat;*/
   font-size: 2em;
 }
 
+.nv {
+  font-size: 1.3em;
+}
+
 .front img {
   width: 550px;
 }
@@ -21,6 +25,11 @@ background-repeat: no-repeat;*/
   /*width: 200px;*/
 }
 
-.mid {
+.row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
+.footer {
+background-color: rgba(129, 126, 128, 0.4);
 }
