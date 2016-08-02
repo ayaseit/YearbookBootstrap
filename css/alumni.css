@@ -1,24 +1,22 @@
-body {
+/*body {
   background-image: url("../images/jumboimage.jpg");
 	background-attachment: fixed;
   background-size: 100%;
 	background-repeat: no-repeat;
-}
+}*/
 
-header h1 {
+/*header h1 {
 	width: 30%;
-  /*justify-content: space-around;*/
 	color:white;
   background-color: rgba(48, 88, 197, 0.25);
   font-weight: bold;
   font-size: 3em;
   margin-right: 3em;
-/*  margin-left: -6em;  */
   font-family: "Fredoka One", monospace, sans-serif, serif;
-}
+} */
 
 /* Top item list  - here are should be buttons */
-nav {
+/*nav {
 display: block;
 	flex-wrap:wrap;
 width: 10%;
@@ -30,7 +28,7 @@ nav li {
   font-family: "Raleway", monospace, sans-serif, serif;
   font-size: 1.6em;
   color: #FFFFFF;
-}
+}*/
 
 
 div {
@@ -39,8 +37,6 @@ div {
   justify-content:center;
   /*padding:  2% auto;*/
   /*border:2px solid #000000;*/
-
-
 }
 
 figure {
