@@ -1,9 +1,9 @@
 body {
-padding-top: 100px;
+padding-top: 120px;
   padding-right: 15px; 
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 5em;
+  margin-left: 5em;
 }
 
 figure {
