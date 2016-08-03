@@ -6,6 +6,8 @@
  <link href="css/main.css" rel="stylesheet">
  <link rel="icon" href="../images/umb.png">
  <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+ <link href="css/animations.css" rel="stylesheet">
+ <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <!-- <link href="fonts/glyphicons-halflings-regular.eot" rel="stylesheet"> -->
   
 </head>
@@ -144,7 +146,18 @@
             </div>
           </div>
         </div>
-        
+        <script>
+        $(window).scroll(function() {
+          $('.face').each(function(){
+            var imagePos = $(this).offset().top;
+            
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+400) {
+              $(this).addClass("hatch");
+            }
+          });
+        });
+        </script>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
