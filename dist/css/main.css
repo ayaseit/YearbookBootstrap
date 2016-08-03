@@ -7,7 +7,7 @@ background-repeat: no-repeat;*/
 a {
   color: #313252;
 }
-/* Overwirting bootstrap  */
+/* Overwirting bootstrap below */
 .navbar-default {
   background-color: #31305f;
   border-color: #e7e7e7;
@@ -43,6 +43,7 @@ a {
     background-color: #313252;
     border-color: #2e6da4;
 }
+/*End of Bootstrap customization*/
 
 .nv {
   font-size: 1.3em;
